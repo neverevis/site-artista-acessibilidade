@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,<link rel="stylesheet" type="text/css" href="style/style.css">
+    <title>Serj Tankian</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <title>Serj Tankian</title>
+    
+</head>
+<body>
+    <header>
+        <!--Título da página-->
+        <div class="topo">
+            <div class="headicon">
+                <img src="floatinghead.png" alt="serjhead">
+            </div>
+        </div>
+        
+        <hr>
+
+        <!--Barra de navegação-->
+        <nav>
+            <ul>
+                <li><a href="home.html">Início</a></li>
+                <li><a href="biografia.html">Biografia</a></li>
+                <li><a href="discografia.html">Discografia</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="idioma.html">🇧🇷</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h1>Preencha o formulário para entrarmos em contato</h1>
+                <form method="post">
+                    <fieldset>
+                        <legend>Informações pessoais</legend>
+
+                        <!--NOME-->
+                        <label>Nome:</label>
+                        <input type="text" name="nome" id="nome">
+
+                        <br><br>
+
+                        <!--EMAIL-->
+                        <label>Email:</label>
+                        <input type="email" name="email" id="email">
+
+                        <br><br>
+
+                        <!--SENHA-->
+                        <label>Nome:</label>
+                        <input type="password" name="pass" id="pass">
+
+                        <br><br>
+
+                        <!--TELEFONE-->
+                        <label>Telefone:</label>
+                        <input type="tel" name="tel" id="tel">
+
+                        <br><br>
+
+                        <!--IDADE-->
+                        <label>Idade</label>
+                        <input type="number" name="idade" id="idade" step="1" min="1" max="80">
+                        
+                        <br><br>
+
+                        <!--DATA DE ANIVERSÁRIO-->
+                        <label>Data de Aniversário</label>
+                        <input type="date" name="data" id="data">
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Preferências</legend>
+
+                        <!--GENERO MUSICAL-->
+                        <label>Genêro musical</label>
+                        
+                        <select name="Genêro Musical" id="gen">
+                            <option value="rock">Rock</option>
+                            <option value="pop">Pop</option>
+                            <option value="mpb">MPB</option>
+                            <option value="alt">Alternativo</option>
+                            <option value="gospel">Gospel</option>
+                        </select>
+
+                        <br><br>
+                        
+                        <!--INSTRUMENTOS-->
+                        <label>Instrumentos</label>
+                        <br>
+                        <input type="checkbox" name="inst" id="inst">Guitarra
+                        <br>
+                        <input type="checkbox" name="inst" id="inst">Piano
+                        <br>
+                        <input type="checkbox" name="inst" id="inst">Flauta
+                        <br>
+                        <input type="checkbox" name="inst" id="inst">Violino
+                        <br>
+                        <input type="checkbox" name="inst" id="inst">Bateria
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Biografia</legend>
+                        <textarea name="bio" id="bio" cols="80" rows="10"></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Foto</legend>
+                        <input type="file" name="foto" id="foto" accept="image/png, image/jpeg">
+                    </fieldset>
+                </form>
+            </section>
+
+
+            <section>
+                <center>
+                    <h1>Contato do Artista</h1>
+                    <table border="2">
+                        <tr>
+                            <th>Email</th>
+                            <th>Telefone</th>
+                        </tr>
+                        <tr>
+                            <td>orders@serjtankian.com</td>
+                            <td>40028922</td>
+                        </tr>
+                    </table>
+                    <h2><a href="https://serjtankian.com/">https://serjtankian.com</a></h2>
+                    </center>
+                    
+            </section>
+        </main>
+    </header>
+    <center>
+        <footer>
+            <hr>
+            <h3>2024 - Exercício da aula de construção de páginas web</h3>
+            <h6>Página feita por Milan de Oliveira Bahrami, todos os direitos reservados c=</h6>
+        </footer>
+    </center>
+</body>
+</html>

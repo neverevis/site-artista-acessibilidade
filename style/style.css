@@ -1,0 +1,44 @@
+header ul
+{
+   display: flex;
+   color: aliceblue;
+}
+.topo
+{
+    background-image: url(https://t3.ftcdn.net/jpg/04/33/37/94/360_F_433379472_mXQIa1tL8q0lI37olf1eyywCXLqwebdG.jpg);
+    background-size: cover;
+}
+.headicon img
+{
+    display: flex;
+    margin: auto;
+    width: 20vh;
+    padding: 1%;
+}    
+a
+{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+nav
+{
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: center;
+    
+}
+ul li
+{
+    list-style: none;
+}
+body
+{
+    background-color: rgb(233, 233, 233);
+}
+.languageselect
+{
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
